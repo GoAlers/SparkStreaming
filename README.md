@@ -1,4 +1,4 @@
-# Sparing Streaming实时日志分析
+# Spark Streaming实时日志分析
 
 * 前言：使用scala和java混编完成，其中也涉及到python脚本来自动生成日志，linux crontab调度工具来定时执行脚本生成实时日志。生成的数据主要是模拟某学习网站学习视频课程的访问量（其中模拟的日志中URL以"/class"开头的表示实战课程，然后通过流水线Flume+Kafka+SparkStreaming进行实时日志的收集，HBase来存储数据）*
 
